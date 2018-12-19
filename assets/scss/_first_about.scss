@@ -1,0 +1,26 @@
+
+.first-about {
+	margin: 100px 10px;
+	h2{
+		font-weight: 400;
+	}
+	span{
+		font-weight: 700;
+	}  
+}
+
+.picture-first {
+	background-image: url("../images/first.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+.adresas {
+	padding: 50px;
+	span {
+		color: red;
+		font-size: 3rem;
+	}
+}

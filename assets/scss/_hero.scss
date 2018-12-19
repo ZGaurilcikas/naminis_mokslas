@@ -1,0 +1,73 @@
+// hero picture 
+.hero {
+	background-image: url("../images/hero.jpg");
+	color: #fff;
+	background-position: center;
+	background-size: cover;
+}
+
+// darken picture
+.tint {
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+// padding for logo element
+.top-hero {
+	justify-content:space-between;
+	padding-top: 50px;
+}
+
+.top-hero{
+	h2 {
+		font-family: "CubanoRegular";
+		font-size: 1.5rem;
+		padding-left: 10px;
+	}
+
+}
+.navigation {
+	li{
+		list-style-type: none;
+		font-family: 'Lato', sans-serif;
+		font-size: 1.125rem;
+		padding: 15px;
+	}
+	a {
+		color: #fff;
+		padding: 10px;
+		text-decoration: none;
+	}
+}
+
+// Hero text position center
+.poz {
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+	position: relative;
+	min-height: calc(100vh - 120px);
+}
+.poz .hero-text{
+	h2 {
+		font-size: 2rem;
+		font-family: "Myriad-Pro";
+		font-weight: 600;
+	}
+	h1{
+		font-size: 4.125rem;
+		font-family: "Myriad-Pro";
+		margin-bottom: 85px;
+		font-weight: 600;
+	}
+	a{
+		padding: 20px 70px 20px 70px;
+		color: #fff;
+		border-radius: 5px;
+		text-decoration: none;
+		border: 3px solid #fff;
+		font-size: 1.4375rem;
+	}
+}
+

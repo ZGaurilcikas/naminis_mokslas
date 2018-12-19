@@ -1,0 +1,21 @@
+.colored {
+	background-color: #ebeaea;
+}
+.second-about {
+	margin: 100px 10px;
+
+	h2{
+		font-weight: 400;
+	}
+	span{
+		font-weight: 700;
+	}  
+}
+
+.picture-second {
+	background-image: url("../images/second.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
