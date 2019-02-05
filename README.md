@@ -1,2 +1,2 @@
 # Angular SHOW IP ADRRESS
-Simple Angular app to show IP address
+Simple Angular 1 app to show IP address
